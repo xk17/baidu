@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>tree1</title>
+	<style type="text/css">
+	.box {
+		border: 1px solid black;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+		align-items: center;
+		width: 800px;
+		height: 500px;
+	}
+	.box1 {
+		border: 1px solid red;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+		align-items: center;
+		width: 350px;
+		height: 400px;
+	}
+	.box2 {
+		border: 1px solid blue;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+		align-items: center;
+		width: 170px;
+		height: 300px;
+	}
+	.box3 {
+		border: 1px solid yellow;
+		display: flex;
+		flex-direction: row;
+		width: 80px;
+		height: 200px;
+	}
+	</style>
+</head>
+<body>
+<div class="box">
+	<div class="box1">
+		<div class="box2">
+			<div class="box3"></div>
+			<div class="box3"></div>
+		</div>
+		<div class="box2">
+			<div class="box3"></div>
+			<div class="box3"></div>
+		</div>
+	</div>
+	<div class="box1">
+		<div class="box2">
+			<div class="box3"></div>
+			<div class="box3"></div>
+		</div>
+		<div class="box2">
+			<div class="box3"></div>
+			<div class="box3"></div>
+		</div>
+	</div>
+</div>
+<button id="preBtn">前序</button>
+<button id="inBtn">中序</button>
+<button id="postBtn">后序</button>
+<script src="js/task22.js"></script>
+</body>
+</html>
