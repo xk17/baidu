@@ -1,0 +1,71 @@
+.box {
+	position: relative;
+	border: 1px solid black;
+	width: 1300px;
+	height: 400px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.box1 {
+	position: relative;
+	border: 1px solid black;
+	width: 600px;
+	height: 300px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.box2 {
+	position: relative;
+	border: 1px solid black;
+	width: 185px;
+	height: 200px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.box3 {
+	position: relative;
+	border: 1px solid black;
+	width: 80px;
+	height: 100px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.box4 {
+	position: relative;
+	border: 1px solid black;
+	width: 30px;
+	height: 50px;
+}
+span {
+	position: absolute;
+	top: 2px;
+	left: 2px;
+}
+
+#fish {
+	width: 40px;
+}
+
+.origin {
+	background-color: transparent;
+}
+
+.traverse {
+	background-color: yellow;
+}
+
+.found {
+	background-color: red;
+}
